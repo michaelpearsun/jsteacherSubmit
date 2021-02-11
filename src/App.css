@@ -1,0 +1,239 @@
+.App {
+  text-align: center;
+}
+h2{
+  color:#528AAe;
+}
+.full-page{
+  min-height:600px;
+  padding-top:120px;
+  vertical-align: center;
+  max-width:1200px;
+}
+.navList{
+  position:fixed;
+  width:100%;
+  padding:40px;
+  padding-right:15%;
+  text-align:right;
+  height:80px;
+  background-color:#ffffff;
+  
+  max-width:1200px;
+  z-index:9;
+}
+.navList li{
+list-style-type:none;
+display:inline;
+cursor: pointer;
+font-family:'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+font-weight:lighter;
+color:#545454;
+}
+.navList li:hover{
+  color:#3f3f3f;
+}
+.app-button{
+  width:200px;
+  background-color:#91BAD6;
+  color:#ffffff;
+  font-weight:bold;
+  height:75px;
+  border-radius:20px;
+  font-size:14pt;
+  border:2px solid #ffffff;
+  margin-left:20px;
+  display:inline;
+}
+.Modal{
+  border-radius:200px;
+}
+.Modal-box{
+  height:260px;
+  padding-top:80px;
+  padding-left:50px;
+  display:inline-block;
+  text-align:center;
+  border-radius:40px;
+}
+.Modal-box p{
+  width:85%;
+  text-align:center;
+}
+
+.modal-button{
+  width:100px;
+  background-color:#91BAD6;
+  color:#ffffff;
+  font-weight:bold;
+  height:35px;
+  border-radius:10px;
+  font-size:12pt;
+  border:1px solid #ffffff;
+  margin-left:20px;
+
+  display:inline;
+}
+.page-Heading{
+  
+  font-family: 'Stalinist One', cursive;
+}
+@media only screen and (max-width: 800px) {
+  .page-Heading {
+    padding-top:90px;
+    text-align:center;
+    display:inline-block;
+    font-size:24pt;
+  }
+  .copy-text{
+    font-size:12pt;
+    line-height:20pt;
+    margin-top:80px;
+  }
+}
+@media only screen and (min-width: 801px) and (max-width:1200px){
+  .full-page{
+    min-height:750px;
+  }
+  .page-Heading {
+    padding-top:200px;
+    text-align:center;
+    display:inline-block;
+    font-size:40pt;
+  }
+}
+
+@media only screen and (min-width: 1201px){
+  .page-Heading {
+    padding-top:220px;;
+    text-align:center;
+    display:inline-block;
+    font-size:60pt;
+  }
+}
+
+/* Styles for the Text Editor */
+
+.left-pane {
+  background-color: hsl(225, 6%, 25%);
+}
+
+.pane {
+  height: 50vh;
+  display: flex;
+  margin:10px;
+}
+
+.right-pane{
+  background-color:#ffffff;
+  border: 2px solid #404040;
+  border-radius:2px;
+}
+.editor-container {
+  flex-grow: 1;
+  flex-basis: 0;
+  display: flex;
+  flex-direction: column;
+  padding: .5rem;
+}
+
+.editor-container.collapsed {
+  flex-grow: 0;
+}
+
+.editor-container.collapsed .CodeMirror-scroll {
+  position: absolute;
+  overflow: hidden !important;
+}
+
+.expand-collapse-btn {
+  margin-left: .5rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.editor-title {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(225, 6%, 13%);
+  color: white;
+  padding: .5rem .5rem .5rem 1rem;
+  border-top-right-radius: .5rem;
+  border-top-left-radius: .5rem;
+}
+
+.CodeMirror {
+  height: 100% !important;
+}
+
+.code-mirror-wrapper {
+  flex-grow: 1;
+  border-bottom-right-radius: .5rem;
+  border-bottom-left-radius: .5rem;
+  overflow: hidden;
+}
+
+
+/* About Components */
+.playground{
+  display:none;
+}
+.problemsChoice{
+  display:none;
+}
+table{
+  border: 2px solid black;
+  border-radius:4px;
+  text-align:center;
+  display:inline-block;
+}
+td{
+  border:2px solid black;
+  padding:20px;
+}
+.problemTitle{
+  cursor:pointer;
+}
+
+/* Styles for the prompts*/
+.exampleimage{
+  width:75%;
+  margin:20px;
+}
+.codeBox{
+  width:100%;
+  min-height:400px;
+  background-color:#404040;
+  color:green;
+  font-family:courier, arial, sans-serif;
+  font-size:1.5em;
+  font-weight:bold;
+  text-decoration:none;
+  padding:10px;
+}
+.textBox{
+  width:100%;
+  font-size:16pt;
+  border-radius:2px;
+  text-align:left;
+  line-height:30px;
+}
+.complete-box{
+  margin-top:10px;
+  margin-bottom:20px;
+  width:100%;
+  height:75px;
+  background-color:#000000;
+  color:green;
+  padding:10px;
+}
+
+.our-names{
+  color:#ffffff;
+  font-weight:bold;
+  font-size:24pt;
+  letter-spacing: 20px;
+  text-shadow: 2px 2px  2px  #000000;
+}
