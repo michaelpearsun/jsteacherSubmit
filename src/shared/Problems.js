@@ -12,7 +12,7 @@ export const Tasks = [
             Follow the model above. Underneath num1, create a variable called num2, which stores the number, 2. Then
             create a variable which adds the two numbers together. Be sure to follow the model carefully. Don't forget to log your answer to the console.
         </div>,
-        solution:"const num1=1;const num2=2;const sum=(num1,num2)=>{return num1+num2;};",
+        solution:"constnum1=1;constnum2=2;constsum=(num1,num2)=>{returnnum1+num2;};",
         complete:'3'
     },
     {
@@ -25,7 +25,7 @@ export const Tasks = [
         <img className="exampleimage" src="/assets/example2.png" alt="image2"/><br /><img className="exampleimage" src="/assets/2A.png" alt="image2"/><br/>
         Notice that by accessing the item with the index of 2, you actually access the third item. This is because the first item in an array has an index of [0].<br />
         Use what you have learned from the example above to log "Will" to the console. Be sure to follow the directions very carefully.</div>,
-        solution:"const students=[\"Michael\",\"Nick\",\"Will\"];console.log(students[2]);",
+        solution:"conststudents=[\"Michael\",\"Nick\",\"Will\"];console.log(students[2]);",
         complete:"Will"
     },
     {
@@ -37,7 +37,7 @@ export const Tasks = [
             Using the push method, You can add an item to the end of the array. For instance: <img className="exampleimage" src="/assets/example3.png" alt = "image3" /><br />
             <img className="exampleimage" src="/assets/3A.png" alt="image2"/><br/>
             Following the model above, remove "speakers" and add "headphones"  </div>,
-        solution:"const myGear=[\"keyboard\",\"mouse\",\"monitor\",\"speakers\"];myGear.pop();myGear.push(\"headphones\");console.log(myGear);",
+        solution:"constmyGear=[\"keyboard\",\"mouse\",\"monitor\",\"speakers\"];myGear.pop();myGear.push(\"headphones\");console.log(myGear);",
         complete:"[\"keyboard\", \"mouse\", \"monitor\", \"speakers\"]"
     }
 ];
